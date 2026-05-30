@@ -1,6 +1,0 @@
-{
-  "name": "法考对话",
-  "description": "基于 RAG 的法考内容问答服务浏览器端单页体验",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
