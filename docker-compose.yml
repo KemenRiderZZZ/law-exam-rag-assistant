@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: law_pgvector
+    restart: unless-stopped
+    env_file:
+      - ./数据库/.env.pg
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - ./中文数据库数据/docker-pgdata:/var/lib/postgresql/data
+      - ./数据库/init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10

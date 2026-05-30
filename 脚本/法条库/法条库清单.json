@@ -1,0 +1,386 @@
+[
+  {
+    "book_name": "法条库｜中华人民共和国民法典",
+    "file_name": "中华人民共和国民法典.txt",
+    "doc_type": "法条",
+    "law_category": "民法类",
+    "law_name": "中华人民共和国民法典",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "detail_id": "ff808081729d1efe01729d50b5c500bf",
+    "pdf_url": "https://wb.flk.npc.gov.cn/flfg/PDF/bd53dd912c1048f2aecbaa229238334b.pdf",
+    "issued_authority": "全国人民代表大会",
+    "effective_status": "现行有效",
+    "issued_date": "2020-05-28",
+    "effective_date": "2021-01-01",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "source_site": "flk.npc.gov.cn",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国民法典"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国刑法",
+    "file_name": "中华人民共和国刑法.txt",
+    "doc_type": "法条",
+    "law_category": "刑法类",
+    "law_name": "中华人民共和国刑法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "detail_id": "ff808181796a636a0179822a19640c92",
+    "issued_authority": "全国人民代表大会",
+    "effective_status": "现行有效",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff808181796a636a0179822a19640c92",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2020-12-26",
+    "effective_date": "2021-03-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国刑法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国民事诉讼法",
+    "file_name": "中华人民共和国民事诉讼法.txt",
+    "doc_type": "法条",
+    "law_category": "诉讼法类",
+    "law_name": "中华人民共和国民事诉讼法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "pdf_url": "https://wb.flk.npc.gov.cn/flfg/PDF/af4d4e4fcb9d40c1957a10929e0978ce.pdf",
+    "issued_authority": "全国人民代表大会",
+    "effective_status": "现行有效",
+    "detail_id": "ff8081818a21dc13018b425303b7086d",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff8081818a21dc13018b425303b7086d",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2023-09-01",
+    "effective_date": "2024-01-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国民事诉讼法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国刑事诉讼法",
+    "file_name": "中华人民共和国刑事诉讼法.txt",
+    "doc_type": "法条",
+    "law_category": "诉讼法类",
+    "law_name": "中华人民共和国刑事诉讼法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会",
+    "effective_status": "现行有效",
+    "detail_id": "ff8080816f135f46016f1d1b81b01351",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff8080816f135f46016f1d1b81b01351",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2018-10-26",
+    "effective_date": "2018-10-26",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国刑事诉讼法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国行政诉讼法",
+    "file_name": "中华人民共和国行政诉讼法.txt",
+    "doc_type": "法条",
+    "law_category": "诉讼法类",
+    "law_name": "中华人民共和国行政诉讼法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会",
+    "effective_status": "现行有效",
+    "detail_id": "2c909fdd678bf17901678bf858550a0f",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=2c909fdd678bf17901678bf858550a0f",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2017-06-27",
+    "effective_date": "2017-07-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国行政诉讼法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国行政许可法",
+    "file_name": "中华人民共和国行政许可法.txt",
+    "doc_type": "法条",
+    "law_category": "行政法类",
+    "law_name": "中华人民共和国行政许可法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "pdf_url": "https://wb.flk.npc.gov.cn/flfg/PDF/ab0d94e8f0a340cc993b18cd16fd0d48.pdf",
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "ff8080816f135f46016f216bf96b1ae6",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff8080816f135f46016f216bf96b1ae6",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2019-04-23",
+    "effective_date": "2019-04-23",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国行政许可法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国行政处罚法",
+    "file_name": "中华人民共和国行政处罚法.txt",
+    "doc_type": "法条",
+    "law_category": "行政法类",
+    "law_name": "中华人民共和国行政处罚法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "pdf_url": "https://wb.flk.npc.gov.cn/flfg/PDF/85a16272c21047eca076f1866478325e.pdf",
+    "issued_authority": "全国人民代表大会",
+    "effective_status": "现行有效",
+    "detail_id": "ff8080817703add20177373df6a43e33",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff8080817703add20177373df6a43e33",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2021-01-22",
+    "effective_date": "2021-07-15",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国行政处罚法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国公司法",
+    "file_name": "中华人民共和国公司法.txt",
+    "doc_type": "法条",
+    "law_category": "商法类",
+    "law_name": "中华人民共和国公司法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "ff8081818c9108eb018cb6922f750c07",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff8081818c9108eb018cb6922f750c07",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2023-12-29",
+    "effective_date": "2024-07-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国公司法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国合伙企业法",
+    "file_name": "中华人民共和国合伙企业法.txt",
+    "doc_type": "法条",
+    "law_category": "商法类",
+    "law_name": "中华人民共和国合伙企业法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "2c909fdd678bf17901678bf63dce034d",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=2c909fdd678bf17901678bf63dce034d",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2006-08-27",
+    "effective_date": "2007-06-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国合伙企业法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国企业破产法",
+    "file_name": "中华人民共和国企业破产法.txt",
+    "doc_type": "法条",
+    "law_category": "商法类",
+    "law_name": "中华人民共和国企业破产法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "2c909fdd678bf17901678bf63c7c0343",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=2c909fdd678bf17901678bf63c7c0343",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2006-08-27",
+    "effective_date": "2007-06-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国企业破产法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国消费者权益保护法",
+    "file_name": "中华人民共和国消费者权益保护法.txt",
+    "doc_type": "法条",
+    "law_category": "经济法类",
+    "law_name": "中华人民共和国消费者权益保护法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "2c909fdd678bf17901678bf7670606ef",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=2c909fdd678bf17901678bf7670606ef",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2013-10-25",
+    "effective_date": "2014-03-15",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国消费者权益保护法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国反垄断法",
+    "file_name": "中华人民共和国反垄断法.txt",
+    "doc_type": "法条",
+    "law_category": "经济法类",
+    "law_name": "中华人民共和国反垄断法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "ff8081818234ccb501829f46c6ac2a5a",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff8081818234ccb501829f46c6ac2a5a",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2022-06-24",
+    "effective_date": "2022-08-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国反垄断法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国反不正当竞争法",
+    "file_name": "中华人民共和国反不正当竞争法.txt",
+    "doc_type": "法条",
+    "law_category": "经济法类",
+    "law_name": "中华人民共和国反不正当竞争法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "ff808181971552b40197b1016efc5437",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff808181971552b40197b1016efc5437",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2025-06-27",
+    "effective_date": "2025-10-15",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国反不正当竞争法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国宪法",
+    "file_name": "中华人民共和国宪法.txt",
+    "doc_type": "法条",
+    "law_category": "理论法类",
+    "law_name": "中华人民共和国宪法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会",
+    "effective_status": "现行有效",
+    "detail_id": "2c909fdd678bf17901678bf59da8002d",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=2c909fdd678bf17901678bf59da8002d",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2018-03-11",
+    "effective_date": "2018-03-11",
+    "law_kind": "宪法",
+    "official_title": "中华人民共和国宪法修正案（2018年）"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国立法法",
+    "file_name": "中华人民共和国立法法.txt",
+    "doc_type": "法条",
+    "law_category": "理论法类",
+    "law_name": "中华人民共和国立法法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会",
+    "effective_status": "现行有效",
+    "detail_id": "ff808181865edc140186d9d6f1cb2503",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=ff808181865edc140186d9d6f1cb2503",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2023-03-13",
+    "effective_date": "2023-03-15",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国立法法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国涉外民事关系法律适用法",
+    "file_name": "中华人民共和国涉外民事关系法律适用法.txt",
+    "doc_type": "法条",
+    "law_category": "国际法类",
+    "law_name": "中华人民共和国涉外民事关系法律适用法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "2c909fdd678bf17901678bf714ae05c3",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=2c909fdd678bf17901678bf714ae05c3",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2010-10-28",
+    "effective_date": "2011-04-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国涉外民事关系法律适用法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国对外贸易法",
+    "file_name": "中华人民共和国对外贸易法.txt",
+    "doc_type": "法条",
+    "law_category": "国际法类",
+    "law_name": "中华人民共和国对外贸易法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "f99c412df98b4ea396d6709c78703111",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=f99c412df98b4ea396d6709c78703111",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2025-12-27",
+    "effective_date": "2026-03-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国对外贸易法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国仲裁法",
+    "file_name": "中华人民共和国仲裁法.txt",
+    "doc_type": "法条",
+    "law_category": "国际法类",
+    "law_name": "中华人民共和国仲裁法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "58d7569a322b4eca9b22feaa4f5d7d4f",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=58d7569a322b4eca9b22feaa4f5d7d4f",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2025-09-12",
+    "effective_date": "2026-03-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国仲裁法"
+  },
+  {
+    "book_name": "法条库｜中华人民共和国海商法",
+    "file_name": "中华人民共和国海商法.txt",
+    "doc_type": "法条",
+    "law_category": "国际法类",
+    "law_name": "中华人民共和国海商法",
+    "source_priority": [
+      "flk.npc.gov.cn",
+      "npc.gov.cn"
+    ],
+    "issued_authority": "全国人民代表大会常务委员会",
+    "effective_status": "现行有效",
+    "detail_id": "1349e6aadd4947fe83ff811739825d3c",
+    "source_url": "https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=1349e6aadd4947fe83ff811739825d3c",
+    "source_site": "flk.npc.gov.cn",
+    "issued_date": "2025-10-28",
+    "effective_date": "2026-05-01",
+    "law_kind": "法律",
+    "official_title": "中华人民共和国海商法"
+  }
+]

@@ -1,0 +1,69 @@
+# Local app settings
+.claude/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Node / frontend builds
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*_backup.txt
+tmp/
+temp/
+codex-cleanup-logs/
+tmp_sjz/
+运行日志/
+tmp_chatEngine_backup.txt
+
+# Cloud deployment data and generated runtime bundles
+云端部署/runtime/
+云端部署/exports/
+云端部署/*.tar
+云端部署/*.tar.gz
+云端部署/*.zip
+zip.zip
+
+# Large local datasets and raw materials
+OCR原稿/
+中文数据库数据/
+保密版切块/
+保密版文本/
+切块/
+备份/
+
+# Cleaned source texts are allowed, but keep old archived variants local-only
+整理后文本/归档_旧版本_2026-05-24/
+
+# Local installers / generated assets
+数据库/安装包/
+页面/宠物/
+
+# Office / binary exports that usually should not be versioned
+*.pdf
+*.doc
+*.docx
+*.exe
+*.dump
+
+# Business and financing docs that are not part of the code/data pipeline
+法考智学产品版创业计划书.md
+法考智学融资版创业计划书.md

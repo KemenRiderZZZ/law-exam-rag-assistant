@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>法考智学 V2</title>
+    <style>
+      html, body {
+        margin: 0;
+        min-height: 100%;
+        background: #f8fafc;
+        color: #0f172a;
+        font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+      }
+      #boot-fallback {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
+      }
+      #boot-fallback-card {
+        width: min(100%, 560px);
+        border: 1px solid #e2e8f0;
+        border-radius: 28px;
+        background: rgba(255, 255, 255, 0.94);
+        box-shadow: 0 24px 48px rgba(15, 23, 42, 0.08);
+        padding: 24px;
+      }
+      #boot-fallback-card h1 {
+        margin: 0;
+        font-size: 24px;
+        line-height: 1.3;
+      }
+      #boot-fallback-card p {
+        margin: 12px 0 0;
+        font-size: 14px;
+        line-height: 1.8;
+        color: #475569;
+      }
+      #boot-fallback-card .boot-tip {
+        margin-top: 18px;
+        border-radius: 18px;
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        padding: 14px 16px;
+        font-size: 13px;
+        line-height: 1.8;
+      }
+      noscript .noscript-only {
+        display: block;
+      }
+      .noscript-only {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="boot-fallback">
+      <div id="boot-fallback-card">
+        <h1>法考智学 V2 正在启动</h1>
+        <p>如果你正在使用夸克、系统浏览器或较旧内核，页面首屏可能需要几秒完成脚本初始化。</p>
+        <div class="boot-tip">
+          若长时间停留在这里，请先刷新一次；如果仍无变化，也可以稍后改用 Chrome 再打开导图功能。
+        </div>
+        <noscript>
+          <div class="boot-tip noscript-only">
+            当前浏览器禁用了 JavaScript，法考智学 V2 无法正常运行。请开启 JavaScript 后重试。
+          </div>
+        </noscript>
+      </div>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>法考对话平台</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="app-backdrop"></div>
+
+      <aside id="settings-drawer" class="settings-drawer" aria-hidden="true">
+        <div class="drawer-card">
+          <div class="drawer-head">
+            <div>
+              <p class="drawer-eyebrow">SEARCH SETTINGS</p>
+              <h2>检索设置</h2>
+            </div>
+            <button id="close-settings-btn" class="icon-btn ghost-btn" type="button" aria-label="关闭设置">
+              ×
+            </button>
+          </div>
+
+          <div class="drawer-body">
+            <label class="field">
+              <span>限定书名</span>
+              <input id="book_name" name="book_name" type="text" placeholder="留空表示全库检索" />
+            </label>
+
+            <label class="field">
+              <span>限定章节</span>
+              <input id="chapter" name="chapter" type="text" placeholder="例如：侵犯公民个人信息罪" />
+            </label>
+
+            <label class="field">
+              <span>Top K</span>
+              <input id="top_k" name="top_k" type="number" min="1" max="20" value="5" />
+            </label>
+
+            <label class="toggle-row">
+              <input id="no_model_filter" name="no_model_filter" type="checkbox" />
+              <span>不限制 embedding_model</span>
+            </label>
+
+            <button id="fill-demo" class="secondary-btn" type="button">填入示例问题</button>
+          </div>
+        </div>
+      </aside>
+
+      <div id="reader-modal" class="reader-modal" hidden>
+        <div class="reader-mask"></div>
+        <div class="reader-card">
+          <div class="reader-head">
+            <div>
+              <p id="reader-book" class="reader-book"></p>
+              <h3 id="reader-title">原文片段</h3>
+            </div>
+            <button id="close-reader-btn" class="icon-btn ghost-btn" type="button" aria-label="关闭原文">
+              ×
+            </button>
+          </div>
+          <div id="reader-meta" class="reader-meta"></div>
+          <pre id="reader-content" class="reader-content"></pre>
+        </div>
+      </div>
+
+      <main class="app-main">
+        <header class="topbar">
+          <div class="brand-block">
+            <div class="brand-mark">法</div>
+            <div>
+              <h1>法考对话平台</h1>
+              <p>基于本地 PostgreSQL + pgvector 的法考检索工作台</p>
+            </div>
+          </div>
+
+          <div class="topbar-actions">
+            <div class="health-chip">
+              <span class="health-label">检索服务</span>
+              <strong id="stat-health">检查中</strong>
+            </div>
+            <div class="health-chip">
+              <span class="health-label">Embedding 模型</span>
+              <strong id="stat-model">BAAI/bge-m3</strong>
+            </div>
+            <button id="open-settings-btn" class="secondary-btn" type="button">检索设置</button>
+          </div>
+        </header>
+
+        <section class="chat-stage">
+          <div id="welcome-state" class="welcome-state">
+            <div class="welcome-icon">§</div>
+            <h2>你好，欢迎来到法考对话平台</h2>
+            <p>
+              这里先做本地检索版。你提问后，页面会调用当前已经跑通的向量检索接口，
+              返回最相关的法考片段，并按对话形式展示引用来源。
+            </p>
+            <div class="quick-grid">
+              <button class="quick-btn" type="button" data-question="侵犯公民个人信息罪怎么认定？">
+                “侵犯公民个人信息罪怎么认定？”
+              </button>
+              <button class="quick-btn" type="button" data-question="刑法中的因果关系应当如何判断？">
+                “刑法中的因果关系应当如何判断？”
+              </button>
+              <button class="quick-btn" type="button" data-question="共同犯罪中主犯和从犯如何区分？">
+                “共同犯罪中主犯和从犯如何区分？”
+              </button>
+              <button class="quick-btn" type="button" data-question="正当防卫和紧急避险的核心区别是什么？">
+                “正当防卫和紧急避险的核心区别是什么？”
+              </button>
+            </div>
+          </div>
+
+          <section id="messages" class="messages" aria-live="polite"></section>
+        </section>
+
+        <footer class="composer-wrap">
+          <form id="search-form" class="composer-form">
+            <textarea
+              id="query"
+              name="query"
+              rows="1"
+              placeholder="询问任意法考知识点……（Enter 发送，Shift + Enter 换行）"
+              required
+            ></textarea>
+            <button id="submit-btn" class="send-btn" type="submit" aria-label="发送问题">→</button>
+          </form>
+          <div class="composer-foot">
+            <span id="status-text">等待提问</span>
+            <span id="result-count">暂未检索</span>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

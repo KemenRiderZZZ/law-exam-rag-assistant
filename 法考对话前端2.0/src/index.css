@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Cascadia Mono", "JetBrains Mono", "SFMono-Regular", Consolas, "Microsoft YaHei", ui-monospace, monospace;
+  --font-serif: "Noto Serif SC", "Songti SC", STSong, Georgia, Cambria, "Times New Roman", Times, serif;
+}
